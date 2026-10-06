@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+}
+nav {
+    background: #333;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2 {
+    color: white;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+main {
+    text-align: center;
+    margin-top: 100px;
+}
+main h1 {
+    margin-bottom: 15px;
+}
+main p {
+    font-size: 17px;
+}
