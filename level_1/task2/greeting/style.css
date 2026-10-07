@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: rgb(248, 245, 245);
+    padding: 35px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(2, 250, 64, 0.897);
+}
+h1 {
+    margin-bottom: 15px;
+}
+#greeting {
+    font-size: 22px;
+}
