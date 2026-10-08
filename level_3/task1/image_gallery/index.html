@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>My Own Gallery</h1>
+        <div class="gallery">
+            <img src="images/images1.png" alt="Gallery image 1" onclick="showImage(this)">
+            <img src="images/images2.jpeg" alt="Gallery image 2" onclick="showImage(this)">
+            <img src="images/images3.png" alt="Gallery image 3" onclick="showImage(this)">
+            <img src="images/images4.jpeg" alt="Gallery image 4" onclick="showImage(this)">
+            <img src="images/images5.jpeg" alt="Gallery image 5" onclick="showImage(this)">
+        </div>
+        <div class="selected-image">
+            <img id="mainImage" src="images/images1.png" alt="Selected gallery image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
